@@ -1,4 +1,4 @@
-#hidrolog韆 estadistica
+#hidrolog铆a estadistica
 
 rm(list=ls())
 cd<-setwd('d:/geomar/modulos/programacion/R')
@@ -222,8 +222,8 @@ a<-data[['registro']]
 Q<-data[['caudal']]
 
 xm<-mean(Q) #promedio
-dst<-sd(Q) #desviaci髇 standard
-cv<-dst/xm #coef. de variaci髇
+dst<-sd(Q) #desviaci贸n standard
+cv<-dst/xm #coef. de variaci贸n
 
 v_N<-c(xm,dst,cv)
 
@@ -239,7 +239,7 @@ for (i in 1:length(vae)){
 }
 
 #tabla de factor de frecuencia para prob. 50%,80%,90% y 100%
-#coef. de variaci髇 (cv) que varian de 0.05 hasta 1.00
+#coef. de variaci贸n (cv) que varian de 0.05 hasta 1.00
 cvn<-seq(0.05,1,by=0.05)
 
 k_n<-matrix(0,nrow = length(cvn), ncol = length(vae))
@@ -253,7 +253,7 @@ for (i in 1:length(cvn)){
 #LOG NORMAL 2P
 
 lnQ=log(Q) #log natural de caudales
-cvQ=dst/xm #coef. de variaci髇
+cvQ=dst/xm #coef. de variaci贸n
 
 uy1<-0.5*log(xm^2/(1+cvQ^2))
 dy1<-sqrt(log(1+cvQ^2))
@@ -324,7 +324,7 @@ Tm<-seq(10,100,by=5)
 A<-matrix(0,nrow = length(Tm), ncol = 100)
 n<-length(Tm)
 
-#generaci髇 de los series
+#generaci贸n de los series
 for (i in 1:length(Tm)){
   n[i]<-length(1:Tm[i])
   for (j in 1:length(1:Tm[i])){
