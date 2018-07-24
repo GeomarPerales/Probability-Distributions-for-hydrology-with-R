@@ -6,11 +6,11 @@ a<-data[['registro']]
 Q<-data[['caudal']]
 
 xm<-mean(Q) #promedio
-dst<-sd(Q) #desviación standard
-cv<-dst/xm #coef. de variación
+dst<-sd(Q) #desviaciÃ³n standard
+cv<-dst/xm #coef. de variaciÃ³n
 
 lnQ=log(Q) #log natural de caudales
-cvQ=dst/xm #coef. de variación
+cvQ=dst/xm #coef. de variaciÃ³n
 
 uy1<-0.5*log(xm^2/(1+cvQ^2))
 dy1<-sqrt(log(1+cvQ^2))
