@@ -5,7 +5,7 @@ Tm<-seq(10,100,by=5)
 A<-matrix(0,nrow = length(Tm), ncol = 100)
 n<-length(Tm)
 
-#generación de los series
+#generaciÃ³n de los series
 for (i in 1:length(Tm)){
   n[i]<-length(1:Tm[i])
   for (j in 1:length(1:Tm[i])){
