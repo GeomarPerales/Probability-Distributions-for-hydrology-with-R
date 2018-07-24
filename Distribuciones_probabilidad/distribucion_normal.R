@@ -6,8 +6,8 @@ a<-data[['registro']]
 Q<-data[['caudal']]
 
 xm<-mean(Q) #promedio
-dst<-sd(Q) #desviación standard
-cv<-dst/xm #coef. de variación
+dst<-sd(Q) #desviaciÃ³n standard
+cv<-dst/xm #coef. de variaciÃ³n
 
 v_N<-c(xm,dst,cv)
 
@@ -25,7 +25,7 @@ for (i in 1:length(vae)){
 }
 
 #tabla de factor de frecuencia para prob. 50%,80%,90% y 100%
-#coef. de variación (cv) que varian de 0.05 hasta 1.00
+#coef. de variaciÃ³n (cv) que varian de 0.05 hasta 1.00
 cvn<-seq(0.05,1,by=0.05)
 
 k_n<-matrix(0,nrow = length(cvn), ncol = length(vae))
