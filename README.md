@@ -1,4 +1,5 @@
-# statistical_hydrology_with_R
+# statistical hydrology with R
+
 Códigos desarrollados para Hidrología Estadística - IMF - UNMSM.
 
 # contenido:
