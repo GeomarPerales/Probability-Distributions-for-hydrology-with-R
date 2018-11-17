@@ -1,10 +1,18 @@
-# statistical hydrology with R
+# Probability Distributions for hydrology with Python
 
-Códigos desarrollados para Hidrología Estadística - IMF - UNMSM.
+## 1. Descripción:
 
-## 1. contenido:
+Una distribución de Probabilidad es una función que representa la probabilidad de ocurrencia de una variable aleatoria.
 
--Tablas 't' y 'F(z)' de Abramowitz , stegun y Masting.
+Las distribuciones de probabilidad se utilizan en muy diversos estudios hidrológicos, particularmente en estudios de caudales altos y bajos extremos, crecidas, volúmenes de embalse, cantidades de precipitación de lluvia y modelos de series temporales.
+
+> Caso de aplicación: Determinación de caudales en ciertos períodos de retorno.
+
+## 2. Contenido:
+
+El repositorio contiene las siguientes Distribuciones de Probabilidad y Tablas de Frecuencias desarrollados en Python 3.6.:
+
+- Tablas 't' y 'F(z)' de Abramowitz , stegun y Masting.
 - Distribución Log Normal 2 Parámetros
 - Distribución Log Normal 3 Parámetros
 - Distribución Log Pearson
@@ -14,3 +22,13 @@ Códigos desarrollados para Hidrología Estadística - IMF - UNMSM.
 - Factores de frecuencia Normal
 - Factores de frecuencia Pearson
 - Factores de frecuencia Weibul
+
+## 3. Referencias 
+
+[1] Monsalve, G. (1995). Hidrología en la Ingeniería. Bogotá, Colombia: Escuela
+Colombiana de Ingeniería.
+
+[2] Villón, M. (2006). Hidrología Estadística. Costa Rica: Tecnológica de Costa
+Rica.
+
+[3] Chow, V.; Maidment, D. & Mays, L. (1994) Hidrología Aplicada. Bgotá, Colombia: McGRAW-HILL INTERAMERICANA S.A.  
