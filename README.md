@@ -6,7 +6,7 @@ Una distribución de Probabilidad es una función que representa la probabilidad
 
 Las distribuciones de probabilidad se utilizan en muy diversos estudios hidrológicos, particularmente en estudios de caudales altos y bajos extremos, crecidas, volúmenes de embalse, cantidades de precipitación de lluvia y modelos de series temporales.
 
-> Caso de aplicación: Determinación de caudales en ciertos períodos de retorno.
+> Caso de aplicación: Determinación de caudales para diferentes períodos de retorno.
 
 ## 2. Contenido:
 
