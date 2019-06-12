@@ -31,4 +31,4 @@ Colombiana de Ingeniería.
 [2] Villón, M. (2006). Hidrología Estadística. Costa Rica: Tecnológica de Costa
 Rica.
 
-[3] Chow, V.; Maidment, D. & Mays, L. (1994) Hidrología Aplicada. Bgotá, Colombia: McGRAW-HILL INTERAMERICANA S.A.  
+[3] Chow, V.; Maidment, D. & Mays, L. (1994) Hidrología Aplicada. Bogotá, Colombia: McGRAW-HILL INTERAMERICANA S.A.  
