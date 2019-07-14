@@ -21,7 +21,7 @@ El repositorio contiene las siguientes Distribuciones de Probabilidad y Tablas d
 - Factores de frecuencia Gumbel
 - Factores de frecuencia Normal
 - Factores de frecuencia Pearson
-- Factores de frecuencia Weibul
+- Factores de frecuencia Weibull
 
 ## 3. Referencias 
 
