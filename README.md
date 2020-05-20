@@ -1,4 +1,4 @@
-# Probability Distributions for hydrology with Python
+# Probability Distributions for hydrology with R
 
 ## 1. Descripción:
 
