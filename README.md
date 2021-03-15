@@ -30,3 +30,7 @@ Colombiana de Ingeniería.
 Rica.
 
 [3] Chow, V.; Maidment, D. & Mays, L. (1994) Hidrología Aplicada. Bogotá, Colombia: McGRAW-HILL INTERAMERICANA S.A.  
+
+## 4. Acknowledgments
+
+To Mg. Eng. Jorge Gastelo Villanueva, Professor of statistical hydrology, UNMSM, and Harold Mendoza Romero.
